@@ -1,5 +1,6 @@
 import { loadUser } from './user';
 import { httpGet } from './http';
+
 jest.mock('./http');
 
 test('user', () => {

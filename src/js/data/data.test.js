@@ -1,4 +1,4 @@
-import calculateCashback from './data'
+import calculateCashback from './data';
 
 test('cashback amount 1000000', () => {
   const result = calculateCashback(1000000);
